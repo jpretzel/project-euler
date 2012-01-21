@@ -21,4 +21,4 @@
   "Computes the smallest positive number that is evenly divisible 
   by all of the numbers from a to b"
   [a b]
-  (reduce lcm (range from to)))
+  (reduce lcm (range a b)))
